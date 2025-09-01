@@ -12,6 +12,14 @@
   <link rel="stylesheet" href="responsiveV1.css" />
   <link rel="stylesheet" href="headhome.css" />
   <style>
+    /* Ensure white background for entire page */
+    html, body {
+      background-color: white !important;
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      color: #222;
+    }
+
     /* User Profile Content Styles */
     main.profile-main {
       position: relative; /* for absolute positioning inside */
@@ -265,13 +273,13 @@
   </header>
 
   <!-- Main user profile content -->
-  <main class="profile-main" aria-label="User   Profile">
+  <main class="profile-main" aria-label="User    Profile">
     <button class="button edit-profile-topright" id="editProfileBtn">Edit Profile</button>
 
     <div class="profile-header">
       <img
         src="assets/images/gallery/avatar1.png"
-        alt="User   Avatar"
+        alt="User    Avatar"
         class="profile-avatar"
       />
       <div class="profile-info">
